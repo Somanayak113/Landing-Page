@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(nature.1..jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    width: 100%;
+    height: 15vh;
+    color: rgb(193, 237, 142);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    width: 25%;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 30px;
+}
+
+nav .menu {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .menu a {
+    width: 80%;
+    font-size: 20px;
+    text-decoration: none;
+    color: bisque;
+    font-weight: bold;
+}
+
+nav .menu a:hover {
+    color: rgb(150, 232, 10);
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+section h3 {
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    color: rgb(216, 181, 181);
+    text-shadow: 2x 1x 2x rgb(227, 199, 199);
+}
+
+section h1 {
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: rgb(240, 240, 244);
+    text-shadow: 2x 1x 5x black;
+    text-transform: uppercase;
+}
+
+section a {
+    padding: 12px 12px;
+    border-radius: 20%;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration:none;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+}
+
+section .btnone {
+    background: whitesmoke;
+    color: black;
+}
+
+section .btntwo {
+    background: rgb(108, 175, 72);
+    color: black;
+}
+
+section .btnone:hover {
+    background: rgb(108, 175, 72);
+    color: black;
+}
+
+section .btntwo:hover {
+    background: whitesmoke;
+    color: black;
+}
+
+section .media-icons a {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid skyblue;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(16, 156, 225);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+
+}
+section .media-icons a:hover{
+    background: rgb(142, 193, 240);
+    color: rgb(4, 4, 4);
+    box-shadow: 0 0 20px rgb(146, 146, 225);
+}
